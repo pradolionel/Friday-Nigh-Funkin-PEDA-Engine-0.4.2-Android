@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="FangDeath" width="3035" height="1882">
+<SubTexture name="deathloop0005" x="0" y="0"  width="1027" height="937" frameX="-240" frameY="-216" frameWidth="1280" frameHeight="1280"/>
+<SubTexture name="deathloop0004" x="0" y="937"  width="1015" height="937" frameX="-246" frameY="-216" frameWidth="1280" frameHeight="1280"/>
+<SubTexture name="deathloop0002" x="1015" y="937"  width="1009" height="937" frameX="-249" frameY="-216" frameWidth="1280" frameHeight="1280"/>
+<SubTexture name="deathloop0001" x="1027" y="0"  width="1005" height="937" frameX="-251" frameY="-216" frameWidth="1280" frameHeight="1280"/>
+<SubTexture name="dead0000" x="2024" y="937"  width="426" height="945" frameX="-253" frameY="-208" frameWidth="1280" frameHeight="1280"/>
+<SubTexture name="deathloop0000" x="2032" y="0"  width="1003" height="937" frameX="-252" frameY="-216" frameWidth="1280" frameHeight="1280"/>
+</TextureAtlas>

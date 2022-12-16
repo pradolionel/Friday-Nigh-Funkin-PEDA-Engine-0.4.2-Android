@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+made by Drim https://youtube.com/channel/UCNZ8TIPngeOL-0qdwhztxeQ
+-->
+<TextureAtlas imagePath="Fang.png" width="2388" height="1941">
+  <SubTexture name="fang idle0004" x="0" y="0"  width="442" height="964" frameX="-18" frameY="-42" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang idle0001" x="0" y="964"  width="438" height="961" frameX="-22" frameY="-43" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang idle0003" x="438" y="964"  width="420" height="962" frameX="-23" frameY="-43" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang idle0002" x="442" y="0"  width="421" height="956" frameX="-26" frameY="-48" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang up0001" x="858" y="956"  width="382" height="985" frameX="-28" frameY="-10" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang up0002" x="1240" y="0"  width="381" height="977" frameX="-29" frameY="-18" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang right0001" x="1240" y="977"  width="386" height="964" frameX="-51" frameY="-31" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang right0002" x="1621" y="0"  width="384" height="963" frameX="-50" frameY="-32" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang down0001" x="1626" y="963"  width="394" height="934" frameX="-25" frameY="-62" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang down0002" x="2005" y="0"  width="383" height="942" frameX="-26" frameY="-53" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang left0001" x="863" y="0"  width="375" height="952" frameX="-18" frameY="-43" frameWidth="500" frameHeight="1010"/>
+  <SubTexture name="fang left0002" x="2020" y="942"  width="367" height="951" frameX="-28" frameY="-44" frameWidth="500" frameHeight="1010"/>
+</TextureAtlas>
