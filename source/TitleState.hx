@@ -227,7 +227,7 @@ class TitleState extends MusicBeatState
 		add(backgroundTitle);
 		//logoBl.shader = swagShader.shader;
 		
-		backgroundTitle = new FlxSprite().loadGraphic(Paths.image('MenuBG'));
+		backgroundTitle = new FlxSprite().loadGraphic(Paths.image('menuBG'));
 		backgroundTitle.screenCenter();
 		backgroundTitle.antialiasing = ClientPrefs.globalAntialiasing;
 
