@@ -37,6 +37,7 @@ class CustomControlsState extends MusicBeatSubstate
 
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
+	var bg:FlxSprite;
 							//'hitbox',
 	var controlitems:Array<String> = ['Controle Destro', 'Controle Canhoto','Teclado','Controles custom', 'hitbox'];
 
@@ -115,6 +116,11 @@ class CustomControlsState extends MusicBeatSubstate
 		importbutton = new FlxUIButton(exportbutton.x, 100, "import", () -> { loadfromclipboard(_pad); });
 		importbutton.resize(125,50);
 		importbutton.setLabelFormat("VCR OSD Mono", 24, FlxColor.BLACK,"center");
+		
+			bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.color = 0xFFea71fd;
+		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
 		// add buttons
 		add(exitbutton);
@@ -139,6 +145,7 @@ class CustomControlsState extends MusicBeatSubstate
 		add(down_text);
 		add(left_text);
 		add(right_text);
+		add(bg);
 
 		// change selection
 		changeSelection();
