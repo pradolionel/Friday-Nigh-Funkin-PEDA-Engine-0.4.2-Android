@@ -168,12 +168,12 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				case "Continuar":
 					close();
-				case 'Mudar Dificuldade':
+				case 'Dificultades':
 					menuItems = difficultyChoices;
 					regenMenu();
 				case "Editor De Chart":
 				    MusicBeatState.switchState(new editors.ChartingState());
-				case 'Mudar para Modo de Treino':
+				case 'Modo Entreno':
 					PlayState.practiceMode = !PlayState.practiceMode;
 					PlayState.usedPractice = true;
 					practiceText.visible = PlayState.practiceMode;
@@ -185,7 +185,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.cpuControlled = !PlayState.cpuControlled;
 					PlayState.usedPractice = true;
 					botplayText.visible = PlayState.cpuControlled;
-				case "Exit to menu":
+				case "Salir Del Menu":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 					CustomFadeTransition.nextCamera = transCamera;
