@@ -37,7 +37,6 @@ class CustomControlsState extends MusicBeatSubstate
 
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
-	var bg:FlxSprite;
 							//'hitbox',
 	var controlitems:Array<String> = ['Controle Destro', 'Controle Canhoto','Teclado','Controles custom', 'hitbox'];
 
@@ -48,7 +47,8 @@ class CustomControlsState extends MusicBeatSubstate
 	var bindbutton:flixel.ui.FlxButton;
 
 	var config:Config;
-
+	var bg:FlxSprite;
+	
 	public function new()
 	{
 		super();
