@@ -19,7 +19,7 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Continuar', 'Reiniciar Música', 'Dificultades', 'Modo Entreno', 'Botplay', 'Editor De Chart', 'Salir Del Menu'];
+	var menuItemsOG:Array<String> = ['Continuar', 'Reiniciar Musica', 'Dificultades', 'Modo Practica', 'Botplay', 'Editor De Chart', 'Salir Del Menu'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -72,7 +72,7 @@ class PauseSubState extends MusicBeatSubstate
 		blueballedTxt.updateHitbox();
 		add(blueballedTxt);
 
-		practiceText = new FlxText(20, 15 + 101, 0, "Modo Praticar", 32);
+		practiceText = new FlxText(20, 15 + 101, 0, "Modo Pratica", 32);
 		practiceText.scrollFactor.set();
 		practiceText.setFormat(Paths.font('vcr.ttf'), 32);
 		practiceText.x = FlxG.width - (practiceText.width + 20);
@@ -177,7 +177,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.practiceMode = !PlayState.practiceMode;
 					PlayState.usedPractice = true;
 					practiceText.visible = PlayState.practiceMode;
-				case "Reiniciar Música":
+				case "Reiniciar Musica":
 					CustomFadeTransition.nextCamera = transCamera;
 					MusicBeatState.resetState();
 					FlxG.sound.music.volume = 0;
