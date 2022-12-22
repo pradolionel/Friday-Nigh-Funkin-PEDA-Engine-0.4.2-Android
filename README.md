@@ -1,12 +1,12 @@
 # Friday Night Funkin' - PEDA Engine
-Provavelmente, a Melhor Engine Mobile até agora!
-## Instalação:
+¡Probablemente el mejor motor móvil hasta ahora!
+## Instalacion:
 É....
-Instala pelo source mesmo
-A versão ainda está em fase de teste e estamos
-restaurando ela aos poucos
+Instalar desde la fuente 6
+La versión aún está en fase de prueba y estamos 7
+restaurandolo poco a poco
 ## Créditos:
-• DreamStreamGT - Artista da Engine
+• DreamStreamGT - Artista del Engine
 
 • Fang - Coverista, Coder, "Artista", Dono
 
@@ -14,22 +14,22 @@ restaurando ela aos poucos
 
 • Meliante - Artista Secundário
 
-• MateusX02 - Coder secundário e ajudante
-Aviso: essa engine está em cima da Psych. Créditos aos criadores originais
+• MateusX02 - Codificador secundario y ayudante
+Aviso: este motor está encima de Psych. Creditos a los creadores originales
 _____________________________________
 
-## - Recursos e Melhorias -
-* Agora realmente a Engine está 100% traduzida
-* Otimização sem tirar a experiência original
-* WideScreen (Estado Beta ainda)
-* Icons Balançando
-* Engine 100% Accésivel
-* Músicas extras!
-* Agora você pode mudar seu Framerate entre 1000 e 0 (sim 0)
+## - Características y mejoras -
+* Ahora el motor está realmente 100% traducido
+* Optimización sin quitar la experiencia original
+* WideScreen (Estado Beta todavía)
+* Sacudiendo iconos
+* Motor 100% Accesible
+* ¡Canciones adicionales!
+* Ahora puedes cambiar tu Framerate entre 1000 y 0 (si 0)
 
 ## - Gameplay -
-* Tem Downscroll, Middlescroll e algumas outras coisas
+* Tiene Downscroll, Middlescroll y algunas otras cosas
 
 ## - Visual -
-* UI Bonita
-* Boas inovações
+* Hermosa interfaz de usuario
+* Buenas innovaciones
