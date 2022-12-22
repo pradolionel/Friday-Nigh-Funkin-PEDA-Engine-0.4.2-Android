@@ -66,7 +66,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
-		blueballedTxt.text = "Mortes (Dor no saco): " + PlayState.deathCounter;
+		blueballedTxt.text = "Friday Night Funkin Engine" + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
@@ -173,7 +173,7 @@ class PauseSubState extends MusicBeatSubstate
 					regenMenu();
 				case "Editor De Chart":
 				    MusicBeatState.switchState(new editors.ChartingState());
-				case 'Modo Entreno':
+				case 'Modo Practica':
 					PlayState.practiceMode = !PlayState.practiceMode;
 					PlayState.usedPractice = true;
 					practiceText.visible = PlayState.practiceMode;
