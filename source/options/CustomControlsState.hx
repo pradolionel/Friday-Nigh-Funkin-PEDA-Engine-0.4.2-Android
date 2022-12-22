@@ -37,7 +37,6 @@ class CustomControlsState extends MusicBeatSubstate
 
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
-	
 							//'hitbox',
 	var controlitems:Array<String> = ['Controle Destro', 'Controle Canhoto','Teclado','Controles custom', 'hitbox'];
 
@@ -48,7 +47,6 @@ class CustomControlsState extends MusicBeatSubstate
 	var bindbutton:flixel.ui.FlxButton;
 
 	var config:Config;
-	var bg:FlxSprite;
 
 	public function new()
 	{
@@ -56,6 +54,12 @@ class CustomControlsState extends MusicBeatSubstate
 
 		//init config
 		config = new Config();
+		
+		//bg
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg.color = 0xFFea71fd;
+		bg.screenCenter();
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
 		// load curSelected
 		curSelected = config.getcontrolmode();
@@ -117,17 +121,15 @@ class CustomControlsState extends MusicBeatSubstate
 		importbutton = new FlxUIButton(exportbutton.x, 100, "import", () -> { loadfromclipboard(_pad); });
 		importbutton.resize(125,50);
 		importbutton.setLabelFormat("VCR OSD Mono", 24, FlxColor.BLACK,"center");
-		
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
-		bg.screenCenter();
-		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
 		// add buttons
 		add(exitbutton);
 		add(savebutton);
 		add(exportbutton);
 		add(importbutton);
+		
+		// add bg
+		add(bg);
 
 		// add virtualpad
 		this.add(_pad);
@@ -149,7 +151,6 @@ class CustomControlsState extends MusicBeatSubstate
 
 		// change selection
 		changeSelection();
-		add(bg);
 	}
 
 	override function update(elapsed:Float)
