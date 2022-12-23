@@ -220,7 +220,7 @@ class PlayState extends MusicBeatState
 	
 	var tankWatchtower:BGSprite;
 	var tankGround:BGSprite;
-	var tankmanRun:FlxTypedGroup<TankmenBG>;
+	var tankmanRun:FlxTypedGroup<BGSprite>;
 	var foregroundSprites:FlxTypedGroup<BGSprite>;
 
 	public var songScore:Int = 0;
