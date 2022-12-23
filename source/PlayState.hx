@@ -789,7 +789,6 @@ class PlayState extends MusicBeatState
 					gfVersion = 'gf-tankmen';
 				default:
 					gfVersion = 'gf';
-			}
 				case 'stress':
 					gfVersion = 'pico-speaker';
 			}
