@@ -898,7 +898,7 @@ class PlayState extends MusicBeatState
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("EurostileTBla.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
@@ -1974,9 +1974,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingString == 'N/A') {
-			scoreTxt.text = 'Pontos: ' + songScore + ' • Erros: ' + songMisses + ' • Vida: ' + healthBar.percent + ' • Ranking: ' + ratingString;
+			scoreTxt.text = 'Puntos: ' + songScore + ' • Errores: ' + songMisses + ' • Vida: ' + healthBar.percent + ' • Ranking: ' + ratingString;
 		} else {
-			scoreTxt.text = 'Pontos: ' + songScore + ' • Erros: ' + songMisses + ' • Vida: ' + healthBar.percent + ' • Ranking: ' + ratingString + ' ' + Math.floor(ratingPercent * 100) + '%';
+			scoreTxt.text = 'Puntos: ' + songScore + ' • Errores: ' + songMisses + ' • Vida: ' + healthBar.percent + ' • Ranking: ' + ratingString + ' ' + Math.floor(ratingPercent * 100) + '%';
 		}
 
 		if(cpuControlled) {
